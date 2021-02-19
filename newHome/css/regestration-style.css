@@ -1,0 +1,96 @@
+
+nav.navbar{
+    background-color: #3dc4b6 !important;
+}
+div.top-bar{
+    background-color: #3dc4b6;
+}
+body{
+    background-color: #FBFFFD;
+}
+/* ------- ------------ ------ LOG IN ----------- ------------------ */
+.spacing {
+	padding-top:7px;
+	padding-bottom:7px;
+}
+
+.logo {
+	color:#3dc4b6;
+    padding: 15px;
+    text-align: center;
+    margin: 30px;
+    
+}
+.a-f{
+    padding: 8px;
+    width: 100%;
+    background-color:#29487d;
+}
+.a-t{
+padding: 8px;
+width: 100%;
+background-color: #1da1f2;}
+.a-G{
+    width: 100%;
+    padding: 8px;
+
+
+}
+.a-form-log{
+border-right:1px solid #ccc;height:160px
+}
+.a-Login{
+    border: 1px solid #3dc4b6;
+    border-radius: 5px;
+    padding: 45px;
+    text-align: center;
+    margin: auto;
+    background-color: #fff;
+}
+/* -------------------- ---------- --------- FORGOT PASSOWORD --------- ----------- -------------------- */
+.a-pass-forgot{
+     border: 1px solid #3dc4b6;
+    border-radius: 5px;
+    padding: 25px;
+    text-align: center;
+    margin: auto;
+    margin-top:30px; 
+    background-color: #fff;
+}
+/*----------- ------------------ ------  SIGN UP ------------------ ------------------  ---------- */
+.a-signUp{
+    border: 1px solid #3dc4b6;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 25px;
+    margin: auto;
+    
+margin-top: 30px;}
+.a-client-type{
+    padding: 5px;
+    margin: 5px;
+}
+
+#aVendor{
+    display: none;
+
+}
+.form-check-input{
+    width: 14px;
+    height: 15px;
+}
+.form-check-label{
+    line-height: 22px;
+}
+.a-submit
+{
+    margin: 20px;
+}
+.a-submit button{
+    background-color: #3dc4b6;
+    margin: 3px;
+}
+.a-submit a{
+    color: #3dc4b6;
+    margin: 3px;
+} 

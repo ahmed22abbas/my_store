@@ -1,0 +1,85 @@
+nav.navbar{
+    background-color: #3dc4b6 !important;
+}
+div.top-bar{
+    background-color: #3dc4b6;
+}
+body{
+    background-color: #FBFFFD;
+}
+
+.profile {
+  margin: 20px;
+    padding:0px;
+}
+
+/* Profile sidebar */
+.profile-sidebar {
+  padding:2px;
+  background: #fff;
+  box-shadow:4px 2px 4px 2px#3dc4b6;
+  border: solid 1px #3dc4b6;
+}
+
+.profile-userpic img {
+  float: none;
+  margin: 0px;;
+  width: 100%;
+  height: 30%;
+  border: solid 2px #3dc4b6;
+    padding: 5px;
+ border-radius: 10px;
+}
+
+.profile-usertitle {
+  text-align: center;
+  margin:0px;
+
+}
+
+.profile-usertitle-name {
+  color: #5a7391;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 7px;
+}
+
+.profile-usermenu {
+  margin-top: 20px;
+   
+}
+.profile-usermenu ul li{
+    list-style-type: none;
+    color: #333;
+    padding: 2px;
+ border-bottom:1px solid #3dc4b6;
+    text-decoration: none;
+     width: 100%;
+    list-style-type: none;
+}
+.profile-usermenu ul li a{
+    color:#3dc4b6;
+    list-style-type: none;
+}
+.profile-usermenu ul li.active {
+  border-bottom:2px solid #3dc4b6;
+}
+
+.profile-usermenu ul li.active{
+  color: #fff;
+  background-color: #3dc4b6;
+  border-left: 2px solid #3dc4b6;
+    width: 100%;
+}
+.profile-usermenu ul li.active a{
+  color: #fff;
+    width: 100%;
+}
+/*---------------------- add ur product --------------------------*/
+.add-product{
+    background-color: #fff;
+    border: 1px solid #3dc4b6;
+    padding: 20px;
+    margin: 10px;
+    height: 500px;
+}

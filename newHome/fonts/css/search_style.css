@@ -1,0 +1,168 @@
+
+body{
+    line-height: 1.3em;
+    background-color: #FBFFFD;
+     height: 100%;
+
+}
+ 
+/*
+===================
+  filter column
+===================
+*/
+
+
+.fltr_sepa{
+    margin: auto;
+    background-color: #eaeceb;
+    width: 70%;
+    height: 1px;
+}
+.filter ul li {
+    list-style: none;
+    color: #101012;
+    font-weight: 200;
+    font-size: 1rem;
+
+}
+.filter ul li a{
+  
+    color: #101012;
+    
+}
+.filter ul li a:hover{
+  
+    color: #101012 ;
+    
+}
+.filter p{
+    color: #3dc4b6;
+    padding-right: 20px;
+
+}
+
+/*
+===================
+ categories column
+===================
+*/
+
+p.card-text {
+    padding: 0;
+    font-size: 70%;
+}
+
+.card-columns .card {
+    /* margin-bottom: .75rem; */
+    margin: .75rem .5rem;
+}
+ small {
+    font-size: 90%;
+    font-weight: 400;
+}
+
+.card{
+    background-color: #FBFFFD;
+        border-radius: .5rem;
+    overflow: hidden;
+        border: 10px solid rgba(195, 186, 186, 0);
+   
+        position: relative;
+}
+.card img{
+    border-radius: .5rem;
+}
+.card:hover{
+    background-color: #eaeceb;
+        border-radius: .5rem;
+    overflow: hidden;
+        border: 10px solid #eaeceb;
+    cursor: pointer;
+}
+
+.card i.float-left{
+    color: darkslategray;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    transition: all .1s;
+}
+.card i.float-left:hover{
+    color: lightcoral;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 30px;
+}
+
+h4 {
+    margin-bottom: .5rem;
+    font-family: inherit;
+    font-weight: 100;
+    line-height: .5;
+    color: inherit;
+    font-size: 1rem;
+}
+.card a{
+    color: inherit;
+}
+.card a:hover{
+    text-decoration: none;
+}
+
+/*
+===================
+   pagenation
+===================
+*/
+
+nav ul li {
+     padding: 0px; 
+}
+
+nav ul li {
+    padding: 0px;
+}
+
+div.img_count{
+    padding-left: 50px;
+}
+
+.page-link{
+    color: #3dc4b6;
+}
+.page-link:focus, .page-link:hover{
+    color: #3dc4b6;
+    
+}
+.img_count{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.posi{
+    position: relative;
+}
+
+
+/*
+===================
+   range slider
+===================
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

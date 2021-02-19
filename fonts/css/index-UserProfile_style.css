@@ -1,0 +1,214 @@
+
+nav.navbar{
+    background-color: #3dc4b6 !important;
+}
+div.top-bar{
+    background-color: #3dc4b6;
+}
+body{
+    background-color: #FBFFFD;
+}
+
+.a-about-user i{font-size:20px}
+.a-about-user p{font-size: 1em; margin-bottom:0; padding-bottom:8px}
+h4{
+    padding: 5px;
+    margin:3px;
+    font-family: cursive;
+    text-align: center;
+    color: #333;
+}
+.a-rr{
+    text-align: center;
+}
+.a-r{
+    color: orange;
+    text-align: center;
+    padding: 2px;
+    margin: 2px;
+    margin-left: 5px;
+}
+.a-i{
+    padding-left: 6px;
+    padding-bottom:6px;
+    padding-top: 6px;
+   border: solid 1px  #3dc4b6;
+   margin: 10px;
+   background-color:#FBFFFD;
+   color:#3dc4b6 ;
+   border-radius: 50px;
+   height: 40px;
+    width: 40px;}
+
+
+
+.a-i:hover{
+    background-color: #3dc4b6;
+    color: #FBFFFD;
+    cursor: pointer;
+}
+.a-about-user{
+    margin-top: 19px;
+    text-align: center;
+}
+.a-about-user img{
+    width:95%;
+    height:300px;
+    border:4px solid #3dc4b6;
+    margin-bottom: 10px;
+    padding: 4px;
+    border-radius: 10px;
+}
+.a-about-user p{
+font-size: 16px;
+color: #333;
+padding: 1px;
+margin: 2px;
+
+}
+.a-about-user .btn-width{
+    width: 95%;
+    padding:5px;
+    text-align:center;
+    display: block;
+    font-size: 20px;
+    background-color: #3dc4b6;
+    
+}
+.a-rate{
+    color: #3dc4b6;
+
+}
+/*-------------------- products --------------------------------*/
+.a-user-products{
+    padding: 15px;
+    margin-top: 25px;
+
+}
+.a-user-product
+{
+	background-color:#FBFFFD;
+	width:130px;
+    height:180px; 
+	border:solid 2px #fff;
+	position:relative;
+	text-align:center;
+	overflow:hidden;
+	box-shadow:2px 1px 4px #3dc4b6;
+    float: left;
+    margin: 5px;
+
+}
+.a-user-product .caption
+{
+	background-color:rgba(12,63,85,0.2);
+	color:#fff;
+	position:absolute;
+	top:0px;
+	left:0px;
+	height:100%;
+    width: 120%;
+	opacity:0;
+	transition:all 0.5s;
+	overflow:hidden;
+}
+.a-user-product img
+{
+	width:100%;	
+	transition:all 1s;
+	transition-delay:1s;
+
+}
+
+.a-user-product:hover .caption
+{
+	opacity:1;
+	transform:rotate(-360deg);
+}
+.a-user-product:hover img
+{
+	transform:scale(1.2,1.2);	
+}
+
+.a-user-product:hover p
+{
+		left:0px;
+
+}
+.a-user-product p
+{
+	padding:10px;	
+	position:relative;
+	left:100%;
+	top:0;
+    
+	transition:all 1s;
+	transition-delay: 0.5s;
+}
+.caption i{
+    color: orange;
+    padding: 1px;
+    margin: 1px;
+    text-align: center;
+    font-size: 18px;
+}
+.caption button{
+    text-align: center;
+    padding: 1px;
+    margin-top: 40%;
+    margin-bottom: 10px;
+    margin-left:2%;
+    width: 70px;
+    font-size: 12px;
+}
+/* ------------------------- ----------- contacts ----------- ----------------------------*/
+.dis{
+    
+    margin:4px;
+    margin-top: 20px;
+    border: 2px solid #3dc4b6;
+    padding: 30px;
+    padding-top:0px;
+    overflow: auto;
+}
+.dis h3{
+    background-color: #3dc4b6;
+    color:#ffff;
+    padding: 15px;
+}
+.card-header{
+    background-color:#FBFFFD;
+    color:#3dc4b6;
+    
+}
+.card-body p{
+    font-size: 14px;
+}
+/* ------------------------- Other broducts --------------------------------*/
+.broductss{
+    margin-top: 10px;
+    padding: 10px;
+}
+.activites{
+    border-bottom: 1px solid #3dc4b6;
+    overflow: auto;
+    margin-bottom:6px;
+}
+.activites .pbroduct-img{
+}
+
+.activites .product-desc i{
+    color: orange;
+    
+}
+.c{
+    color:black;
+}
+.activites .product-desc span i{
+color:black;
+    font-size: 14px;
+}
+.dolar{
+    color:#333;
+    font-size: 25px;
+}

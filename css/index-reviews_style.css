@@ -1,0 +1,358 @@
+
+nav.navbar{
+    background-color: #3dc4b6 !important;
+}
+div.top-bar{
+    background-color: #3dc4b6;
+}
+body{
+    background-color: #FBFFFD;
+}
+/* ------------------ ------- Start Cust Reviews --------------------- -----------*/
+.a-cust-opin{
+    font-weight: 700;
+   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+    color: #3dc4b6;
+    text-align: center;
+    margin: 4px;
+    padding: 2px;
+    color:#3dc4b6;
+}
+
+
+.series {
+  position: relative;
+  padding: 0;
+  list-style: none;
+}
+.series:before 
+{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 40px;
+    width: 2px;
+    margin-left: -1.5px;
+    content: '';
+    background-color: #3dc4b6; 
+}
+  .series > li {
+      
+    position: relative;
+   
+}
+    .series > li:after, .series > li:before {
+      display: flex;
+      content: ' '; 
+}
+    .series > li:after {
+      clear: both;
+}
+    .series > li .Product {
+      position: relative;
+      float: right;
+      width: 100%;
+      padding: 0 20px 0 100px;
+      text-align: left;
+}
+      .series > li .Product:before 
+{
+        right: auto;
+        left: -15px;
+        border-right-width: 15px;
+        border-left-width: 0; 
+}
+      .series > li .Product:after {
+        right: auto;
+        left: -14px;
+        border-right-width: 14px;
+        border-left-width: 0;
+}
+    .series > li .Customer 
+{
+      position: absolute;
+      z-index: 100;
+      left: 50;
+      width: 50px;
+      /*height:0px;*/
+      margin-left: 0;
+      text-align: center;
+      border: 4px solid #3dc4b6;
+      border-radius: 50%;
+}
+
+.Customer img{
+    width: 100%;
+    height: 100%;
+}
+
+.products{
+    
+	background-color:#3dc4b6;
+	width:450px;
+    margin-left: -58px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+	border: 2px #222;
+	position:relative;
+    border-radius: 20px 0 20px;
+	text-align:center;
+	overflow:hidden;
+	box-shadow:4px 2px 4px #3dc4b6;
+    height: 170px;
+
+}
+
+
+.products img{
+    width:100%;
+    height: 100%;
+    border-radius: 20px 0 0px;
+    text-align: center;
+    box-shadow: 2px #666 ;
+    transition:all 1s;
+	transition-delay:1s;
+}
+.products:hover img{
+    opacity: 1;
+    transform: scale(1.1,1.1);
+    box-shadow: 2px 1px 1px #999;
+    cursor: pointer;
+    
+}
+.products:hover .description{
+    opacity: 1;
+    transform: scale(1.2,1.2)
+}
+.products .description p{
+    font-size: 16px;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+.products .description{
+
+	background-color:rgba(3,4,30,0.3);
+	color:#fff;
+	position:absolute;
+	top:0px;
+	left:0px;
+	height:100%;
+    width: 100%;
+	opacity:0;
+	transition:all 1s;
+	overflow:hidden;
+}
+
+.products  h5{
+    margin:0;
+    margin-bottom: 12px;
+	padding:6px 0px;
+	background-color:#3dc4b6;
+	color:#fff;
+    position:relative;
+	left:100%;
+	top:0px;
+	transition:all 0.5s;
+	transition-delay:0.5s;
+
+}
+
+.products:hover h5{
+    left:0px;
+    top:30px;
+    text-align: center;
+}
+.products p{
+    font-size:14x;
+	padding:10px;	
+    margin:10px;
+	position:relative;
+	left:100%;
+	top:0;
+	transition:all 1s;
+	transition-delay:1s;
+
+}
+.products:hover p{
+left:0px;
+}
+
+.Comments{
+    width: 100%;
+    text-align: left;
+    margin-left: -20px;
+    margin-bottom: 0px;
+    
+}
+
+.Comments .rColor
+{
+    font-family: fantasy;
+    font-size:28px;
+    color: #333;
+    margin: 0;
+}
+.Comments > i{
+
+    color: darkorange;
+}
+
+
+.Comments span{
+    color: black;
+    font-size: 14px;
+}
+
+.Comments p{
+    color: #333;
+    font-size: 16px;
+    text-align: right;
+    margin-bottom:0;
+}
+
+/* SMALL SCREEN MEDIA QUERY */
+@media all and (max-width: 749px){
+  .series:before {
+    right: 15%;
+    }
+  .series > li {
+    min-height: 100px;
+    margin-bottom: 100px;
+    }
+    
+    .series > li .Product {
+        
+      float: left;
+      width: 70%;
+      padding: 0 20px 20px 30px;
+      text-align: right;
+    }
+    .Product .Comments .rColor{
+        font-size: 16px;
+    }
+    .Product .Comments i{
+        font-size: 9px;
+        padding: 1px;
+        margin: 0;
+    }
+       .Product .Comments p{
+        font-size:12px;
+        padding: 0px;
+        margin-right: 20px;
+           text-align: right;
+    }
+    .series .products{width: auto}
+    .series .products .description h5{font-size: 14px}
+    .series .products .description p{
+      font-size: 12px;
+      margin-top: 2em
+    }
+    .series > li .Customer {
+      width: 100px;
+      height: 100px;
+      margin-left: -50px;
+    }
+      .series > li .Customer h5 {
+        font-size: 13px;
+        line-height: 18px;
+        margin-top: 16px; 
+           font-size: 16px;
+    }
+    .series > li.comment-right > .Product {
+      float: left;
+      /*padding: 0 30px 20px 20px;*/
+      text-align: left; }
+    img{
+        
+        float: left;
+        width: 30px;
+        height: 30px;
+    }
+}
+@media (min-width: 750px) 
+{
+  .series:before {
+    left: 50%; }
+  .series > li {
+    min-height: 100px;
+    margin-bottom: 100px;
+    }
+ 
+    .series > li .Product {
+        
+      float: left;
+      width: 41%;
+      padding: 0 20px 20px 30px;
+      text-align: right;
+    }
+    .series > li .Customer {
+      left: 50%;
+      width: 100px;
+      height: 100px;
+      margin-left: -50px;
+    }
+      .series > li .Customer h5 {
+        font-size: 13px;
+        line-height: 18px;
+        margin-top: 16px; 
+           font-size: 16px;
+    }
+    .series > li.comment-right > .Product {
+      float: right;
+      padding: 0 30px 20px 20px;
+      text-align: left; }
+    img{
+        
+        float: left;
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media (min-width: 992px) {
+  .series > li {
+    min-height: 150px; }
+    .series > li .Product {
+      padding: 0 20px 20px; }
+    .series > li .Customer {
+      width: 150px;
+      height: 150px;
+      margin-left: -75px; }
+      .series > li .Customer h5 {
+        font-size: 18px;
+        line-height: 26px;
+        margin-top: 30px; 
+    }
+    .series > li.comment-right > .Product {
+      padding: 0 20px 20px; 
+    } 
+
+}
+
+@media (min-width: 1200px) {
+    
+  .series > li {
+    min-height: 170px;
+    }
+    .series > li .Product {
+      padding: 0 20px 20px 100px; 
+    }
+    .series > li .Customer {
+      width: 170px;
+      height: 170px;
+      margin-left: -85px;
+    }
+      .series > li .Customer h5
+    {
+        margin-top: 20px;
+        font-size: 12px;
+          font-size: 30px;
+    }
+    .series > li .comment-right > .Product 
+    {
+      padding: 0 100px 20px 20px;
+    }
+}
+

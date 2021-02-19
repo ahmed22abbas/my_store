@@ -1,0 +1,138 @@
+body{
+    line-height: 1.3em;
+    background-color: #FBFFFD;
+     height: 100%;
+
+}
+nav.navbar{
+    background:#3dc4b6 !important;
+}
+div.top-bar{
+    background-color: #3dc4b6;
+}
+
+/*
+ =========
+  add spcial order
+=========
+*/
+form.o-addordr{
+    padding: 30px;
+   margin-top: 120px; 
+}
+form label{
+    color:#3dc4b6 ; 
+}
+
+.form-control-file, .form-control-range {
+    display: block;
+    color: #3dc4b6;
+}
+.btn-success {
+    color: #fff;
+    background-color: #3dc4b6;
+    border-color: #3dc4b6;
+}
+.btn-success:hover {
+    color: #fff;
+    background-color: #2d9086;
+    border-color: #2d9086;
+}
+.btn-success:not([disabled]):not(.disabled).active, .btn-success:not([disabled]):not(.disabled):active, .show>.btn-success.dropdown-toggle {
+    color: #fff;
+    background-color: #2d9086;
+    border-color: #2d9086;
+    box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0);
+}
+.btn-success.focus, .btn-success:focus {
+    box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0);
+}
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #3dc4b6;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0);
+}
+
+
+.form-group{
+/*    width: 50%;*/
+/*    margin: 150px auto;*/
+}
+
+input#exampleFormControlFile1{
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+input#exampleFormControlFile1 + label{
+    border: 1px solid #3dc4b6;
+    background-color: #fff;
+    padding: 0;
+}
+input#exampleFormControlFile1 + label span{
+    width: 200px;
+    display: inline-block;
+    overflow: hidden;
+    text-align: center;
+}
+input#exampleFormControlFile1 + label strong{
+/*    height: 100%;*/
+    color: #fff;
+    background-color: #3dc4b6;
+    display: inline-block;
+    padding: 10px;
+    cursor: pointer
+}
+input#exampleFormControlFile1 + label strong .fa-upload{
+    padding: 0 5px;
+}
+input#exampleFormControlFile2{
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+input#exampleFormControlFile2 + label{
+    border: 1px solid #3dc4b6;
+    background-color: #fff;
+    padding: 0;
+}
+input#exampleFormControlFile2 + label span{
+    width: 200px;
+    display: inline-block;
+    overflow: hidden;
+    text-align: center;
+}
+input#exampleFormControlFile2 + label strong{
+/*    height: 100%;*/
+    color: #fff;
+    background-color: #3dc4b6;
+    display: inline-block;
+    padding: 10px;
+    cursor: pointer
+}
+input#exampleFormControlFile2 + label strong .fa-upload{
+    padding: 0 5px;
+}
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
